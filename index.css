@@ -1,0 +1,139 @@
+body {
+    background: #EAEBF6;
+    font-family: 'Inter', sans-serif;
+}
+
+.active {
+    border: 2px solid #007bff;
+}
+
+.news-block {
+    display: flex;
+    margin-top: 30px;
+}
+
+.news-info {
+    padding: 27px;
+}
+
+.news-text {
+    padding-bottom: 50px;
+}
+
+.news-text h3 {
+    line-height: 33.75px;
+}
+
+.cus-gray {
+    color: #999;
+}
+
+.news-image {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 10px;
+}
+
+.news-nav {
+    padding-top: 10px;
+}
+
+.hide-news {
+    background-color: transparent;
+    border: none;
+}
+
+.hide-news span {
+    font-family: 'Inter', sans-serif;
+    color: #3D8AFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.hide-news img {
+    background-color: #F3F3F3;
+    padding: 12px;
+    border-radius: 50%;
+}
+
+.showHiddenNews {
+    display: none;
+    align-items: center;
+}
+
+
+.current-page {
+    color: #999;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+}
+
+.current-page span {
+    color: #000;
+}
+
+.next-page {
+    font-family: 'Inter', sans-serif;
+    background-color: transparent;
+    border: none;
+}
+
+.next-page img {
+    background-color: #F3F3F3;
+    padding: 12px;
+    border-radius: 50%;
+}
+
+.prev-page {
+    font-family: 'Inter', sans-serif;
+    background-color: transparent;
+    border: none;
+}
+
+.prev-page img {
+    background-color: #F3F3F3;
+    padding: 12px;
+    border-radius: 50%;
+}
+
+.custom-container {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.projects-logos {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.projects-logos a {
+    display: flex;
+    margin-right: 10px;
+    align-items: center;
+    text-decoration: none;
+}
+
+.projects-logos a img {
+    width: 40px;
+    height: 40px;
+
+}
+
+.cards {
+    gap: 100px;
+}
+
+.card {
+    padding: 30px 50px;
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
+    align-self: center;
+}
